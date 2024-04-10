@@ -1,0 +1,27 @@
+programa {
+  funcao inicio() {
+    programa {
+    
+    funcao trocar_variaveis(variavel1, variavel2) {
+        inteiro temp
+
+        temp = variavel1
+        variavel1 = variavel2
+        variavel2 = temp
+    }
+    
+    funcao inicio() {
+        inteiro a = 5
+        inteiro b = 10
+        
+        escreva("Valores iniciais: a =", a, " e b =", b)
+        
+        // Trocar os valores das variáveis
+        trocar_variaveis(a, b)
+        
+        escreva("\nValores depois da troca: a =", a, " e b =", b)
+    }
+}
+
+  }
+}
