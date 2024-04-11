@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+
+   Caractere nome, sexo
+   Escreva("Digite o seu nome: ")
+   Leia(nome)
+   Escreva("Digite o seu sexo (M para masculino ou F para feminino): ")
+   Leia(sexo)
+   Se sexo = "M" Entao
+      Escreva("Ilmo Sr. ", nome)
+   Senao Se sexo = "F" Entao
+      Escreva("Ilma Sra. ", nome)
+   Senao
+      Escreva("Sexo não reconhecido. Por favor, digite M ou F.")
+  }
+}
