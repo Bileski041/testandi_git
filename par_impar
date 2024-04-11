@@ -1,0 +1,17 @@
+programa {
+    
+    funcao inicio() {
+        inteiro numero
+        
+        // Solicitar que o usuário insira um número inteiro
+        escreva("Digite um número inteiro: ")
+        leia(numero)
+        
+        // Verificar se o número é par ou ímpar
+        se(numero % 2 == 0) {
+            escreva("O número é par.")
+        } senao {
+            escreva("O número é ímpar.")
+        }
+    }
+}
