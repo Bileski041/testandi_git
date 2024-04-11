@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    Algoritmo "ArmazenaNumero"
+  caracter Algoritmo
+  real numero, A, B
+   Escreva("Digite um número: ")
+   Leia(numero)
+   Se numero >= 0 Entao
+      A <- numero
+   Senao
+      B <- numero
+   FimSe
+   Escreva("Variável A: ", A)
+   Escreva("Variável B: ", B)
+FimAlgoritmo
+  }
+}
